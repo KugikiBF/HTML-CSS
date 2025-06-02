@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        div.quadrado{
+            display: inline-block;
+            background-color: lightblue;
+            height: 100px;
+            width: 150px;
+            border: 1px solid cyan;
+        }
+        div.quadrado:hover{
+            background-color: aqua;
+        }
+        div#d1 > p{
+            display: none;
+        }
+
+        div#d1:hover > p{
+            display: block;
+            color: black;
+
+        }
+
+        div#d1:hover{
+            color: blueviolet;
+        }
+        
+        
+
+    </style>
+</head>
+<body>
+    <div class="quadrado">01</div>
+    <div class="quadrado">02</div>
+    <div class="quadrado">03</div>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div id="d1">
+        Passe o mouse 
+        <p>Texto secretoo &#x270C;</p>
+    </div>
+    
+    
+</body>
+</html>
