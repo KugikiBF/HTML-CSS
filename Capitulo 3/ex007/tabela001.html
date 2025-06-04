@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            color: rgb(0, 0, 0);
+            width: 500px;
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 7px;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 6px;
+        }
+        #cnome,#cprof{
+            background-color: beige;
+        }
+        #cgrupo{
+            background-color: rgb(209, 185, 144);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col id="cnome">
+            <col id="cgrupo" span="2">
+            <col id="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissao</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Joao</td>
+            <td>M</td>
+            <td>27</td>
+            <td>Pedreiro</td>
+        </tr>
+        <tr>
+            <td>Gustavo</td>
+            <td>M</td>
+            <td>36</td>
+            <td>Empresario</td>
+        </tr>
+        <tr>
+            <td>Claudio</td>
+            <td>M</td>
+            <td>67</td>
+            <td>Aposentado</td>
+        </tr>
+        <tr>
+            <td>Lucia</td>
+            <td>F</td>
+            <td>43</td>
+            <td>Doméstica</td>
+        </tr>
+        <tr>
+            <td>Joana</td>
+            <td>F</td>
+            <td>29</td>
+            <td>Pediatra</td>
+        </tr>
+    </table>
+</body>
+</html>
