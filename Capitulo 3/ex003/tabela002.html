@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas grandes</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        table{
+            width: 401px;
+            height: 890px;
+            border-collapse: collapse;
+        }
+        tbody tr:nth-child(odd){
+            background-color: rgba(134, 134, 134, 0.589);
+        }
+        caption{
+            font-size: 1.3em;
+            background-color: rgba(184, 180, 180, 0.616);
+            padding: 7px;
+            font-weight: bold;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 6px;
+        }
+        thead, tfoot{
+            background-color: rgb(88, 88, 88);
+            color: white;
+        
+        }
+        thead tr th{
+            position: sticky;
+            top: -1px;
+            background-color:rgb(88, 88, 88) ;
+        }
+        .num{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        
+        <thead>
+            <tr>
+                <th scope="col">Estado </th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São paulo</td>
+                <td class="num">45 919 039</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 850 513</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 824 665</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11 229 915</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 539 029</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">9 233 656</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8 664 307</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">8 058 441</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de habitantes</hd>
+                <td class="num"><strong>212 583 750</strong></td>
+            </tr>
+        </tfoot>
+
+
+
+
+
+
+
+    </table>
+    
+</body>
+</html>
