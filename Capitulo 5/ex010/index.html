@@ -8,23 +8,19 @@
         .conteiner{
             background-color: aqua;
             display: flex;
+            flex-flow: row nowrap;
         }
         .item{
             background-color: blanchedalmond;
             border: 1px solid black;
             text-align: center;
-            flex-basis: 30px;
-
-        }
-        .item:hover{
-            transition: 0.8s;
-            flex-grow: 1;
+            flex-basis: 50px;
         }
     </style>
 </head>
 <body>
     <div class="conteiner">
-        <div class="item" id="A">A</div>
+        <div class="item">A</div>
         <div class="item">B</div>
         <div class="item">C</div>
         <div class="item">D</div>
